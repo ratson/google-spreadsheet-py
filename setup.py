@@ -1,13 +1,12 @@
 from setuptools import setup, find_packages
 
 
-version = '2.0.0'
+version = '0.0.1'
 
 
-setup(name='python-google-spreadsheet',
+setup(name='google-spreadsheet-py',
       version=version,
       description="A simple Python wrapper for the Google Spreadsheets API",
-      # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
           "Development Status :: 5 - Production/Stable",
           "Environment :: Console",
@@ -21,9 +20,9 @@ setup(name='python-google-spreadsheet',
           "License :: OSI Approved :: BSD License",
           ],
       keywords='google, docs, spreadsheets, api',
-      author='Yoav Aviram',
-      author_email='support@cleverblocks.com',
-      url='https://github.com/yoavaviram/python-google-spreadsheet',
+      author='Ratson',
+      author_email='contact@ratson.name',
+      url='https://github.com/ratson/google-spreadsheet-py',
       license='BSD',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
